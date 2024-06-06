@@ -1,0 +1,280 @@
+import random
+import turtle
+bob = turtle.Turtle()
+points=0
+lives=3
+def Italy():
+    bob.pensize(8)
+    bob.fillcolor("green")
+    bob.begin_fill()
+    for i in range(2):
+        bob.fd(100)
+        bob.right(90)
+        bob.fd(300)
+        bob.right(90)
+    bob.end_fill()
+
+    bob.fd(100)
+    bob.fillcolor("white")
+    bob.begin_fill()
+    for i in range(2):
+        bob.fd(100)
+        bob.right(90)
+        bob.fd(300)
+        bob.right(90)
+    bob.end_fill()
+    bob.fd(100)
+    bob.fillcolor("red")
+    bob.begin_fill()
+    for i in range(2):
+        bob.fd(100)
+        bob.right(90)
+        bob.fd(300)
+        bob.right(90)
+    bob.end_fill()
+
+    turtle.done
+
+def France():
+    bob.pensize(8)
+    bob.fillcolor("blue")
+    bob.begin_fill()
+    for i in range(2):
+        bob.fd(100)
+        bob.right(90)
+        bob.fd(300)
+        bob.right(90)
+    bob.end_fill()
+
+    bob.fd(100)
+    bob.fillcolor("white")
+    bob.begin_fill()
+    for i in range(2):
+        bob.fd(100)
+        bob.right(90)
+        bob.fd(300)
+        bob.right(90)
+    bob.end_fill()
+    bob.fd(100)
+    bob.fillcolor("red")
+    bob.begin_fill()
+    for i in range(2):
+        bob.fd(100)
+        bob.right(90)
+        bob.fd(300)
+        bob.right(90)
+    bob.end_fill()
+
+def Germany():
+    bob.pensize(8)
+    bob.fillcolor("black")
+    bob.begin_fill()
+    bob.right(90)
+    bob.fd(100)
+    bob.lt(90)
+    bob.fd(400)
+    bob.lt(90)
+    bob.fd(100)
+    bob.lt(90)
+    bob.fd(400)
+    bob.end_fill()
+
+    bob.fillcolor("red")
+    bob.begin_fill()
+    bob.lt(90)
+    bob.fd(200)
+    bob.lt(90)
+    bob.fd(400)
+    bob.lt(90)
+    bob.fd(100)
+    bob.lt(90)
+    bob.fd(400)
+    bob.end_fill()
+    bob.fillcolor("yellow")
+    bob.begin_fill()
+    bob.lt(90)
+    bob.fd(200)
+    bob.lt(90)
+    bob.fd(400)
+    bob.lt(90)
+    bob.fd(100)
+    bob.lt(90)
+    bob.fd(400)
+    bob.end_fill()
+
+def Finland():
+    bob.pensize(1)
+    bob.fd(400)
+    bob.rt(90)
+    bob.fd(250)
+    bob.rt(90)
+    bob.fd(400)
+    bob.rt(90)
+    bob.fd(250)
+    bob.rt(90)
+    bob.penup()
+    bob.rt(90)
+    bob.fd(100)
+    bob.lt(90)
+    bob.pendown()
+    bob.fillcolor("blue")
+    bob.begin_fill()
+    bob.fd(400)
+    bob.rt(90)
+    bob.fd(50)
+    bob.rt(90)
+    bob.fd(400)
+    bob.end_fill()
+    bob.rt(90)
+    bob.fd(150)
+    bob.rt(90)
+    bob.fd(100)
+    bob.rt(90)
+    bob.fillcolor("blue")
+    bob.begin_fill()
+    bob.fd(250)
+    bob.lt(90)
+    bob.fd(50)
+    bob.lt(90)
+    bob.fd(250)
+    bob.end_fill()
+
+def UAE():
+    bob.pensize(8)
+    bob.fillcolor("red")
+    bob.begin_fill()
+    for i in range(2):
+        bob.fd(100)
+        bob.right(90)
+        bob.fd(300)
+        bob.right(90)
+    bob.end_fill()
+    bob.penup()
+    bob.fd(100)
+    bob.fillcolor("green")
+    bob.pendown()
+    bob.begin_fill()
+    for i in range(2):
+        bob.fd(300)
+        bob.right(90)
+        bob.fd(100)
+        bob.right(90)
+    bob.end_fill()
+    bob.rt(90)
+    bob.fd(100)
+    bob.lt(90)
+    bob.fillcolor("white")
+    bob.pendown()
+    bob.begin_fill()
+    for i in range(2):
+        bob.fd(300)
+        bob.rt(90)
+        bob.fd(100)
+        bob.rt(90)
+    bob.end_fill()
+    bob.rt(90)
+    bob.fd(100)
+    bob.lt(90)
+    bob.fillcolor("black")
+    bob.pendown()
+    bob.begin_fill()
+    for i in range(2):
+        bob.fd(300)
+        bob.right(90)
+        bob.fd(100)
+        bob.right(90)
+    bob.end_fill()
+def Palestine():
+    bob.pensize(8)
+    bob.fillcolor("green")
+    bob.begin_fill()
+    bob.right(90)
+    bob.fd(100)
+    bob.lt(90)
+    bob.fd(400)
+    bob.lt(90)
+    bob.fd(100)
+    bob.lt(90)
+    bob.fd(400)
+    bob.end_fill()
+
+    bob.fillcolor("white")
+    bob.begin_fill()
+    bob.lt(90)
+    bob.fd(200)
+    bob.lt(90)
+    bob.fd(400)
+    bob.lt(90)
+    bob.fd(100)
+    bob.lt(90)
+    bob.fd(400)
+    bob.end_fill()
+    bob.fillcolor("black")
+    bob.begin_fill()
+    bob.lt(90)
+    bob.fd(200)
+    bob.lt(90)
+    bob.fd(400)
+    bob.lt(90)
+    bob.fd(100)
+    bob.lt(90)
+    bob.fd(400)
+    bob.end_fill()
+    bob.penup()
+    bob.rt(90)
+    bob.fd(200)
+    bob.pendown()
+    bob.fillcolor("red")
+    bob.begin_fill()
+    bob.rt(135)
+    bob.fd(200)
+    bob.rt(90)
+    bob.fd(200)
+    bob.rt(135)
+    bob.fd(270)
+    bob.end_fill()
+
+
+#list of flags
+flags =[Italy,France,Germany,Finland,UAE,Palestine]
+
+while lives > 0 and len(flags) > 0:
+    bob.reset()
+    bob.speed(200)
+    flag = random.choice(flags)
+    flag()
+    answer = input("Guess the flag")
+
+    if answer == flag.__name__:
+        print("good job")
+        points = points +10
+        print("Points:", points)
+        print("Lives:",lives)
+        flags.remove(flag)
+    else:
+        print("wrong answer")
+        if points >0 :
+            points = points -10
+        else:
+            points =0
+        lives -= lives -1
+        print("Points:", points)
+        print("Lives:", lives)
+        flags.remove(flag)
+
+
+
+
+
+
+
+
+
+#Italy()
+#France()
+#Germany()
+#Finland()
+#UAE()
+#Palestine()
+
+turtle.exitonclick()
